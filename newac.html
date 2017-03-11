@@ -1,0 +1,24 @@
+<html>
+<body>
+<div style="width:300px; margin:0 auto;">
+	<h1>Create An Account</h1>
+	<form name='signUp' method='post' action='createac.php'>
+		<label>Username:</label><br>
+		<input type='text' name='username1' id='username1' placeholder='Username' onblur="validate('username', this, username2)"> <span id='username2' name='username2' style='color: red; font-style: italic;'><br/></span><br/>
+		<label>Password:</label><br>
+		<input type='password' name='password1' id='password1' placeholder='8 to 20 characters' onblur="passwordcheck2(this,password2)"> <span id='password2' name='password2' style='color: red; font-style: italic;'><br /></span><br />
+		<label>Email Address:</label><br>
+		<input type='text' name='email1' id='email1' placeholder='Enter your email here' onblur="validate('email', this, email2)"> <span id='email2' name='email2' style='color: red; font-style: italic;'><br /></span><br>
+		<label>First Name:</label><br>
+		<input type='text' name='fName1' id='fName1' onblur="isempty(this,fName2)"><span id='fName2' name='fName2' style='color: red; font-style: italic;'><br></span><br>    
+		<label>Last Name:</label><br>
+		<input type='text' name='lName1' id='lName1' onblur="isempty(this,lName2)"><span id='lName2' name='lName2' style='color: red; font-style: italic;'><br></span><br>
+		<label>Credit Card number:</label><br>
+		<input id='c1' name='c1' type='text' maxlength='4' onblur='credcard(c1,c2,c3,c4,cardNo)' size='4'>-<input id='c2' name='c2' type='text' onblur='credcard(c1,c2,c3,c4,cardNo)' size='4' maxlength='4'>-<input id='c3' name='c3' size='4' type='text' onblur='credcard(c1,c2,c3,c4,cardNo)' maxlength='4'>-<input id='c4' name='c4' size='4' type='text' maxlength='4' onblur='credcard(c1,c2,c3,c4,cardNo)'><span id='cardNo' name='cardNo' style='color: red; font-style: italic;'><br /></span><br />
+		<label class='terms'>By signing up, you accept the Terms and Conditions and Privacy Policy</label><br><br>
+		<input type='submit' value='Create account' onclick="return accheck()"><br><br>
+		<label>Already have account? <a href='index.php?signin=true'>Sign in</a> here</label>	
+	</form>
+</div>
+</body>
+</head>

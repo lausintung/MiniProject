@@ -1,0 +1,31 @@
+.SF{
+	background-color: #dedede;
+	width: 	210px;
+	height: 340px;
+	border: 1px solid #111111;
+	margin:	10px;
+	box-shadow:0 1px 1px 0 #a9a9a9;
+	padding: 7px;
+}
+.search{
+	z-index: 4;
+	position: fixed;
+	background-color: white;
+	width: 175px;
+	display: block;
+}
+.result{
+	display: inline-block;
+	min-width: 100%;
+}
+.result:hover{
+	background-color: #dbdbdb;
+}
+th{
+	text-align: left;
+}
+.banner{
+	background-image:	url("../img/a.jpg");
+	background-position: center;
+	padding: 0.5cm 0 0cm 0;
+}

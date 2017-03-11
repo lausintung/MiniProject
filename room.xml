@@ -1,0 +1,44 @@
+<roomtype>
+	<room>
+		<title>Standard Single Room</title>
+	</room>
+	<room>
+		<title>Standard Double Room</title>
+	</room>
+	<room>
+		<title>Standard Twin Room</title>
+	</room>
+	<room>
+		<title>Standard Triple Room</title>
+	</room>
+	<room>
+		<title>Standard Family Room</title>
+	</room>
+	<room>
+		<title>Deluxe Single Suite</title>
+	</room>
+	<room>
+		<title>Deluxe Double Suite</title>
+	</room>
+	<room>
+		<title>Deluxe Twin Suite</title>
+	</room>
+	<room>
+		<title>Deluxe Triple Suite</title>
+	</room>
+	<room>
+		<title>Deluxe Family Suite</title>
+	</room>
+	<room>
+		<title>Garden</title>
+	</room>
+	<room>
+		<title>Harbour</title>
+	</room>
+</roomtype>
+
+
+
+
+
+
